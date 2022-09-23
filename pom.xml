@@ -8,6 +8,18 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
+    <modules>
+        <module>fwh-annotation</module>
+        <module>fwh-basetype</module>
+        <module>fwh-collection</module>
+        <module>fwh-designPattern</module>
+        <module>fwh-encryption</module>
+        <module>fwh-exception</module>
+        <module>fwh-lock</module>
+        <module>fwh-reflection</module>
+        <module>fwh-thread</module>
+    </modules>
+
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
