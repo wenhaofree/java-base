@@ -3,7 +3,7 @@ package club.fuwenhao.singleton.v2;
 /**
  * 饿加载
  *
- * @author 腾讯课堂-图灵学院  郭嘉
+ * fwh
  * @Slogan 致敬大师，致敬未来的你
  */
 public class HungrySingletonTest {

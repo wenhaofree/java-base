@@ -1,13 +1,11 @@
 package club.fuwenhao.factorymethod;
 
 /**
- * 工厂方法
- *
- * @author 腾讯课堂-图灵学院  郭嘉
- * @Slogan 致敬大师，致敬未来的你
+ * 抽象工厂方法
  */
 public class FactoryMethodTest {
     public static void main(String[] args) {
+        //替换-生成的产品就可以
 //        Application application = new ConcreteProductB();
         Application application = new ConcreteProductA();
         Product product = application.getObject();
@@ -16,10 +14,16 @@ public class FactoryMethodTest {
     }
 }
 
+/**
+ * 接口：公共方法
+ */
 interface Product {
     void method1();
 }
 
+/**
+ * 产品A
+ */
 class ProductA implements Product {
 
     @Override
@@ -28,6 +32,9 @@ class ProductA implements Product {
     }
 }
 
+/**
+ * 产品B
+ */
 class ProductB implements Product {
 
     @Override
@@ -49,7 +56,9 @@ class SimpleFactory {
     }
 }
 
-//  变化 ， 共同点
+/**
+ * 变化 ， 共同点
+ */
 abstract class Application {
 
     // 工厂方法
@@ -63,6 +72,9 @@ abstract class Application {
     }
 }
 
+/**
+ * 创建A
+ */
 class ConcreteProductA extends Application {
 
     @Override
@@ -73,7 +85,9 @@ class ConcreteProductA extends Application {
     }
 }
 
-
+/**
+ * 创建B
+ */
 class ConcreteProductB extends Application {
 
     @Override

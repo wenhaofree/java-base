@@ -4,7 +4,7 @@ import java.io.*;
 import java.lang.reflect.InvocationTargetException;
 
 /**
- * @author 腾讯课堂-图灵学院  郭嘉
+ * fwh
  * @Slogan 致敬大师，致敬未来的你
  */
 public class InnerClassSingletonTest {
