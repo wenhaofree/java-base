@@ -16,6 +16,7 @@
         <module>fwh-encryption</module>
         <module>fwh-exception</module>
         <module>fwh-lock</module>
+        <module>fwh-object</module>
         <module>fwh-reflection</module>
         <module>fwh-thread</module>
     </modules>
@@ -33,6 +34,11 @@
             <artifactId>junit</artifactId>
             <version>4.12</version>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.38</version>
         </dependency>
     </dependencies>
 </project>
